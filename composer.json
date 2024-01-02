@@ -1,0 +1,23 @@
+{
+    "name": "oddler/solib",
+    "description": "Librarry",
+    "license": "MIT",
+    "type": "library",
+    "keywords": ["lib"],
+    "version": "1.0.1",
+    "authors": [
+        {
+            "name" : "Oddler",
+            "homepage": "http://oddler.ru",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^5.6 || ^7.0",
+        "oddler/pdo": "*",
+        "filp/whoops": "*"
+    },
+    "autoload": {
+        "psr-4": {"Oddler\\SOLib\\": "src/"}
+    }
+}
